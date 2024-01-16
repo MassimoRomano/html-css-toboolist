@@ -3,6 +3,7 @@ body{
     background-size: cover;
 }
 
+/* logo */
 
 #site_header{
     border: 12.5px;
@@ -26,6 +27,8 @@ body{
     padding: 12.5px 25px;
     vertical-align: middle;
 }
+
+/* first box and button */
 
 .container_1{
     background-color: #FFFF;
@@ -59,12 +62,17 @@ body{
     font-weight: bold;
 }
 
+
+/* format list  and box */
+
 #container_2{
     margin-top: 2px;
     background-color: #FFFF;
     padding:5px 100px;
     margin-left: 400px;
     margin-right: 400px;
+    height: 600px;
+    margin-bottom: 400px;
     border-radius: 10px;
     text-align: left;
 
@@ -96,15 +104,9 @@ li{
     font-weight: bolder;
 }
 
-.bord{
-    border-style:inset;
-    border-color: rgb(47, 255, 168);
-    color: rgb(47, 255, 168);
-    padding: 2px 4px;
-    border-radius: 50%;
-    margin-right: 10px;
 
-}
+
+/* color button */
 
 #color_button{
     border-style: hidden;
@@ -148,6 +150,17 @@ li{
     font-weight: bolder;
 }
 
+/* true and false circle */
+.bord{
+    border-style:inset;
+    border-color: rgb(47, 255, 168);
+    color: rgb(47, 255, 168);
+    padding: 2px 4px;
+    border-radius: 50%;
+    margin-right: 10px;
+
+}
+
 .bord_2{
     border-style:inset;
     border-color: rgb(255, 1, 1);
@@ -158,6 +171,5 @@ li{
 }
 
 footer{
-    text-align: end;
-    padding-top: 100px;
+    padding-left: 400px;
 }
