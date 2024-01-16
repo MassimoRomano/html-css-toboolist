@@ -156,3 +156,8 @@ li{
     border-radius: 50%;
     margin-right: 10px;
 }
+
+footer{
+    text-align: end;
+    padding-top: 100px;
+}
