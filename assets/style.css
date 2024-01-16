@@ -5,30 +5,35 @@ body{
 
 
 #site_header{
-    margin: 0px;
     border: 12.5px;
     padding: 10px 10px;
     height: 100px;
     background-color: #FFFF;
-    align-self: center;
+    align-items: center;
+    margin-bottom: 12.5px;
+    
 }
 
 #testata{
     font-size: 50px;
     font-weight: bold;
+    vertical-align: middle;
 }
 
 .logo{
     height: 75px;
     width: 75px;
     padding: 12.5px 25px;
+    vertical-align: middle;
 }
 
 .container_1{
     background-color: #FFFF;
     border-radius: 10px;
     padding: 20px 100px;
-    margin: 75px 450px;
+    margin-top: 75px;
+    margin-left: 400px;
+    margin-right: 400px;
 
 }
 
@@ -37,7 +42,7 @@ body{
     font-size:15px;
     height: 30px;
     width: 105px;
-    margin-right: 5px;
+    margin-right: 5px; 
 }
     
 #color{
@@ -52,4 +57,59 @@ body{
     border-color: #e9e7e757;
     color: #b4b4b4;
     font-weight: bold;
+}
+
+#container_2{
+    margin-top: 2px;
+    background-color: #FFFF;
+    padding:5px 100px;
+    margin-left: 400px;
+    margin-right: 400px;
+    border-radius: 10px;
+    text-align: left;
+
+} 
+
+.form_button{
+    border-radius: 10px;
+    font-size:12px;
+    height: 25px;
+    width: 60px;
+    margin-left: 5px;
+} 
+
+h3{
+    font-weight: bolder;
+    font-size: 25px;
+    color: #525252;
+}
+
+.font{
+    font-size: 18px;
+    font-weight: bolder;
+}
+
+.bord{
+    border-style:inset;
+    border-color: rgb(47, 255, 168);
+    color: rgb(47, 255, 168);
+    padding: 2px 4px;
+    border-radius: 50%;
+    margin-right: 10px;
+
+}
+
+#color_button{
+    border-style: hidden;
+    background-color: #14AAF5;
+    color: white;
+    font-weight: bolder;
+}
+
+div{
+    padding-bottom: 15px;
+}
+
+span{
+    height: 20px;
 }
