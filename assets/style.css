@@ -1,7 +1,6 @@
 body{
     background-color: #F6F8F9;
     background-size: cover;
-    margin: 0px;
 }
 
 
@@ -11,29 +10,46 @@ body{
     padding: 10px 10px;
     height: 100px;
     background-color: #FFFF;
+    align-self: center;
 }
 
-#main_header{
-    padding: 200px 100px;
-    border-radius: 5px;
-    margin: 200px;
-    background-color: #FFFF;
-}
-
-#container{
-    align-content: center;
+#testata{
+    font-size: 50px;
+    font-weight: bold;
 }
 
 .logo{
-    align-content: center;
     height: 75px;
     width: 75px;
     padding: 12.5px 25px;
 }
 
+.container_1{
+    background-color: #FFFF;
+    border-radius: 10px;
+    padding: 20px 100px;
+    margin: 75px 450px;
 
-span{
-    font-size: 50px;
-    font-weight: bolder;
+}
+
+.form{
+    border-radius: 5px;
+    font-size:15px;
+    height: 30px;
+    width: 105px;
+    margin-right: 5px;
 }
     
+#color{
+    border-style: hidden;
+    background-color: #14AAF5;
+    color: white;
+    font-weight: bolder;
+}
+
+#color_2{
+    background-color: #ffffff57;
+    border-color: #e9e7e757;
+    color: #b4b4b4;
+    font-weight: bold;
+}
