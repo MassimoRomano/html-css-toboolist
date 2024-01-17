@@ -34,9 +34,10 @@ body{
     background-color: #FFFF;
     border-radius: 10px;
     padding: 20px 100px;
-    margin-top: 75px;
-    margin-left: 400px;
-    margin-right: 400px;
+    margin-top: 85px;
+    width: 40%;
+    height: 5%;
+    margin: auto;
 
 }
 
@@ -66,13 +67,11 @@ body{
 /* format list  and box */
 
 #container_2{
-    margin-top: 2px;
     background-color: #FFFF;
     padding:5px 100px;
-    margin-left: 400px;
-    margin-right: 400px;
-    height: 600px;
-    margin-bottom: 400px;
+    width: 40%;
+    height: 50%;
+    margin: auto;
     border-radius: 10px;
     text-align: left;
 
@@ -151,7 +150,7 @@ li{
 }
 
 /* true and false circle */
-.bord{
+.bord_true{
     border-style:inset;
     border-color: rgb(47, 255, 168);
     color: rgb(47, 255, 168);
@@ -161,7 +160,7 @@ li{
 
 }
 
-.bord_2{
+.bord_false{
     border-style:inset;
     border-color: rgb(255, 1, 1);
     color: rgb(253, 0, 0);
@@ -171,5 +170,5 @@ li{
 }
 
 footer{
-    padding-left: 400px;
+    padding-left: 110px;
 }
